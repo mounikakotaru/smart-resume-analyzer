@@ -51,17 +51,22 @@ This app is built using:
 git clone https://github.com/mounikakotaru/smart-resume-analyzer.git
 cd smart-resume-analyzer
 
-### 2. Create and Activate Virtual Environment:
+** ### 2.Create and Activate Virtual Environment: **
+
 ```bash
 python -m venv venv
 venv\Scripts\activate  # On Windows
 
-### 3. Install Requirements:
+
+** ### 3. Install Requirements:**
+
 pip install -r requirements.txt
 python -m nltk.downloader stopwords
 python -m spacy download en_core_web_sm
 
-### 4.Run the App:
+
+** ### 4.Run the App:**
+
 streamlit run App.py
 
 
